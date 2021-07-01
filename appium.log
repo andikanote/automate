@@ -1,0 +1,119 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 50226
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\ANDIKA~1\AppData\Local\Temp\\Katalon\Appium\Temp1623750449097
+[35m[Appium][39m   chromedriverPort: 50227
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 50227
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:50226
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m9 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\OttoAutomation\\jaga2go.apk","noReset":true,"deviceName":"Xiaomi Redmi Note 8 Pro (Android 10)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"10","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"filvgqizde4djzhq","systemPort":50232},"capabilities":{"firstMatch":[{"appium:app":"C:\\OttoAutomation\\jaga2go.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Xiaomi Redmi Note 8 Pro (Android 10)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"10","appium:systemPort":50232,"appium:udid":"filvgqizde4djzhq"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 0490af37-a71d-4bdd-97c6-4cd9274d2103
+[35m[BaseDriver][39m Using local app 'C:\OttoAutomation\jaga2go.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Andika Prananto\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Andika Prananto/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Andika Prananto\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: filvgqizde4djzhq
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Andika Prananto\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.app.jaga2go'
+[35m[ADB][39m Main activity name: 'com.app.jaga2go.launcher.splash.SplashActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Andika Prananto\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\Andika Prananto\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\Andika Prananto\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\OttoAutomation\jaga2go.apk' is signed with a non-default certificate
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.21.1
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Andika Prananto\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' and test from 'C:\Users\Andika Prananto\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.app.jaga2go/com.app.jaga2go.launcher.splash.SplashActivity and waiting for 'com.app.jaga2go/com.app.jaga2go.launcher.splash.SplashActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 0490af37-a71d-4bdd-97c6-4cd9274d2103 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11614 ms - 1246[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103 [39m[32m200[39m [90m22 ms - 1200[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103 [39m[32m200[39m [90m14 ms - 1200[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (0490af37)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a6ad7d86-a43b-40ec-ac6b-24c8608a1b4b with 0490af37-a71d-4bdd-97c6-4cd9274d2103
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/source [39m[32m200[39m [90m61 ms - 3151[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/screenshot [39m[32m200[39m [90m452 ms - 71526[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (0490af37)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a6ad7d86-a43b-40ec-ac6b-24c8608a1b4b with 0490af37-a71d-4bdd-97c6-4cd9274d2103
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/source [39m[32m200[39m [90m293 ms - 8988[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/screenshot [39m[32m200[39m [90m498 ms - 175366[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (0490af37)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a6ad7d86-a43b-40ec-ac6b-24c8608a1b4b with 0490af37-a71d-4bdd-97c6-4cd9274d2103
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/source [39m[32m200[39m [90m241 ms - 8984[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/screenshot [39m[32m200[39m [90m563 ms - 271626[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (0490af37)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId a6ad7d86-a43b-40ec-ac6b-24c8608a1b4b with 0490af37-a71d-4bdd-97c6-4cd9274d2103
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/source [39m[32m200[39m [90m365 ms - 17717[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103/screenshot [39m[32m200[39m [90m446 ms - 133036[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 0490af37-a71d-4bdd-97c6-4cd9274d2103 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/0490af37-a71d-4bdd-97c6-4cd9274d2103 [39m[32m200[39m [90m342 ms - 14[39m
+[35m[HTTP][39m [90m[39m
